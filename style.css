@@ -12,11 +12,6 @@ body {
   font-size: 18px;
   line-height: 1.6;
 }
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 html {
   scroll-padding-top: 80px;
@@ -407,6 +402,7 @@ hr {
     transform: translateY(3px);
 }
 
+
 .footer {
   background: #f3e5ce;
   border-top: 2px solid var(--color_accent);
@@ -425,7 +421,7 @@ hr {
 }
 .footer a:hover {
   text-decoration: underline;
-  transform: none;
+  transform: none; 
 }
 .copy {
   margin-top: 20px;
@@ -433,11 +429,12 @@ hr {
   opacity: 0.7;
 }
 
-@media (max-width: 410px) {
+
+@media (max-width: 450px) {
   .search-wrapper {
     display: none; 
   }
-
+}
 
 @media (max-width: 768px) {
   .nav {
